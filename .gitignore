@@ -5,3 +5,4 @@ lib64
 env/
 share/
 __pycache__
+/.vscode/settings.json
