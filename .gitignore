@@ -1,0 +1,7 @@
+.idea/
+bin/
+lib/
+lib64
+env/
+share/
+__pycache__
