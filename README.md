@@ -26,4 +26,4 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 
 ## Acknowledgments
 
-Thank you Jonathan for your great support throughout this project. It has been great and I'm glad that the final look rocks.
+Thank you Jonathan for your support throughout this project. I had a great time and I'm glad that the final look rocks.
