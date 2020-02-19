@@ -10,8 +10,8 @@ scoped_credentials = credentials.with_scopes(
 
 client = gspread.authorize(scoped_credentials)
 
-# Remplacer l'ID par le vrai
-sheet = client.open_by_key('1GNSsDSjD7tVinR8fQXLI3PxWcxk90dNWYSskO7vzKB8').sheet1
+# TODO : Replace ID by the real one
+sheet = client.open_by_key('XXXXXXXXXXXXXXXXXXXXXXXXXXXXX').sheet1
 
 DEBUG = False
 
@@ -19,7 +19,7 @@ DEBUG = False
 def findUser(email):
     print('BEGIN findUser()')
     cell = sheet.find(email)
-    print(email + " repéré à " + "row : " + str(cell.row) + " col : " + str(cell.col))
+    print(email + " found at " + "row : " + str(cell.row) + " col : " + str(cell.col))
     print('END findUser()')
 
     
